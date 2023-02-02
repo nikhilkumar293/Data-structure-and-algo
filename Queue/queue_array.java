@@ -56,7 +56,7 @@ class Queue1{
 		if(isEmpty()) {
 			return -1;
 		}
-		return arr[topofqueue];
+		return arr[beginingofqueue];
 	}
 	
 	public void delete() {
@@ -81,3 +81,4 @@ public class queue_array {
 	}
 
 }
+
